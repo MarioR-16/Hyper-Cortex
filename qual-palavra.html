@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a Palavra? | Hyper Cortex</title>
+    <link rel="stylesheet" href="styles-qual-palavra.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Qual é a Palavra?</h1>
+        <a href="index.html" class="button">Voltar</a>
+    </header>
+    <main>
+        <div id="game-container">
+            <div id="hints-container">
+                <h3>Dicas:</h3>
+                <ol id="hints-list"></ol>
+            </div>
+            <div id="input-container">
+                <h2>Qual é a palavra?</h2>
+                <input type="text" id="guess" placeholder="Digite sua resposta">
+                <div id="buttons-container">
+                    <button id="submit">Enviar</button>
+                    <button id="restart">Reiniciar</button>
+                </div>
+            </div>
+            <div id="congratulations" class="congratulations-message">
+                <p>Parabéns! Você acertou!</p>
+            </div>
+            <p id="result"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2024 - Hyper Cortex. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

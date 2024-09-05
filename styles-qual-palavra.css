@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #004d99;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #005bb5;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #0073e6;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hints-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#hints-container h3 {
+    color: #005bb5;
+    margin-bottom: 10px;
+}
+
+#hints-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#hints-list li {
+    margin-bottom: 10px;
+}
+
+#input-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#input-container h2 {
+    margin-bottom: 10px;
+}
+
+#guess {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+#buttons-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#submit {
+    background-color: #005bb5;
+}
+
+#submit:hover {
+    background-color: #0073e6;
+}
+
+#restart {
+    background-color: #32cd32;
+}
+
+#restart:hover {
+    background-color: #228b22;
+}
+
+.congratulations-message, .error-message {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: none;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-message {
+    background-color: #f44336;
+}
+
+.congratulations-message p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 1em;
+    background-color: #004d99;
+    color: #fff;
+    font-size: 0.875rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
